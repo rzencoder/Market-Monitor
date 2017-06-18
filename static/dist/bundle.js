@@ -25583,6 +25583,7 @@
 	    display: 'block',
 	    position: 'absolute',
 	    top: 51,
+	    left: '5%',
 	    width: '90%',
 	    border: 'none',
 	    backgroundColor: '#fff',
