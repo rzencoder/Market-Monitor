@@ -1,7 +1,6 @@
 {
   "name": "market-monitor",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
   "dependencies": {
     "axios": "^0.16.1",
     "babel-cli": "^6.18.0",
@@ -22,9 +21,7 @@
     "react-autosuggest": "^9.0.1",
     "react-dom": "^15.5.4",
     "react-highcharts": "^12.0.0",
-    "react-highstock": "^1.0.2",
     "socket.io": "^2.0.1",
-    "socket.io-client": "^2.0.1",
     "url-loader": "^0.5.8"
   },
   "scripts": {
