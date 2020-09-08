@@ -6,7 +6,7 @@ import socketIOClient from "socket.io-client";
 
 import Nav from "./Nav";
 import Aside from "./Aside";
-const ENDPOINT = "https://marketmonitor.herokuapp.com/";
+const ENDPOINT = "http://localhost:3001/";
 
 const socket = socketIOClient(ENDPOINT);
 

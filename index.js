@@ -15,7 +15,12 @@ var server = require("http").createServer(app);
 var io = require("socket.io").listen(server);
 
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static("static"));
+
+const path = require('path')
+app.use(express.static(path.join(__dirname, 'client/build')))
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname + '/client/build/index.html'))
+})
 
 io.on("connection", (socket) => {
   console.log("a user connected");
